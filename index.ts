@@ -15,6 +15,15 @@ client.on('messageCreate', (message) => {
         message.react("🏓")
         message.reply(`${client.ws.ping}`)
     }
+
+    if(message.content == 'teste') {
+        const teste = new Discord.MessageEmbed()
+            .setTitle("__**\🧪 Primeira embed em ts \🧪**__ ")
+            .setDescription("Embed teste")
+            .setColor("#00FFFF")
+        message.react("🧪")
+        message.reply({ embeds : [teste] })
+    }
 })
 
 client.login(process.env.TOKEN)
