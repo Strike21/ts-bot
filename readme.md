@@ -10,7 +10,7 @@ Esseé meu primeiro bot em TypeScript, ele tá meio simples, porque eu ainda est
 
 #
 
-## Ferramentas obrigatórias:
+### Ferramentas obrigatórias:
 
 - Node v16, por causa do discord.js 
 
