@@ -21,4 +21,4 @@ for (const files of commands) {
     client.commands.set(pull.config.name, pull);
 }
 
-client.login('ODc2MDQ1NjY1MDY1NjQ4MTc4.YReXGg.VK3okqHXpDzyrg9uo0YdmQTebYs');
+client.login('');
